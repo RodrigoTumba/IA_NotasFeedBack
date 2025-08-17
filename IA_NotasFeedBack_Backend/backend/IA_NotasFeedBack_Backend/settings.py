@@ -62,7 +62,7 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-ROOT_URLCONF = 'backend.urls'
+ROOT_URLCONF = 'IA_NotasFeedBack_Backend.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.wsgi.application'
+WSGI_APPLICATION = 'IA_NotasFeedBack_Backend.wsgi.application'
 
 
 # Database
